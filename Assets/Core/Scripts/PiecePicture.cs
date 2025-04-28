@@ -38,11 +38,31 @@ public class PiecePicture : MonoBehaviour
         if (_isActiveRotate) return;
 
         _isActiveRotate = true;
-        transform.DORotate(new Vector3(0, 0, transform.eulerAngles.z + value), 0.3f).SetEase(Ease.Linear).OnComplete(() =>
+
+        float rotateDuration = 0.3f;
+        float halfDuration = rotateDuration / 2f;
+
+        Sequence sequence = DOTween.Sequence();
+
+        sequence.Join(
+            transform.DORotate(
+                new Vector3(0, 0, transform.eulerAngles.z + value),
+                rotateDuration
+            ).SetEase(Ease.Linear)
+        );
+
+        sequence.Join(
+            transform.DOScale(1.1f, halfDuration).SetEase(Ease.OutQuad)
+        );
+
+        sequence.Append(
+            transform.DOScale(1f, halfDuration).SetEase(Ease.InQuad)
+        );
+
+        sequence.OnComplete(() =>
         {
             _isActiveRotate = false;
             OnPieceMoved?.Invoke();
         });
     }
-
 }
