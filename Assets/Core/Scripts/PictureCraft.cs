@@ -10,9 +10,9 @@ public class PictureCraft : MonoBehaviour
 
     public event Action OnCraftComplete;
 
-    private void Start()
+    public void Init(int idConfig)
     {
-        SetIcons(0);
+        SetIcons(idConfig);
     }
 
     private void SetIcons(int idConfig)
@@ -42,5 +42,5 @@ public class PictureCraft : MonoBehaviour
                 return false;
         }
         return true;
-    }
+    } 
 }
