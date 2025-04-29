@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c40f273259f2c44bb4203558db954f7, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  _icon: {fileID: -1750657331, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  _pieceIcons:
+  - {fileID: 1564339445, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 1947264119, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 1086693816, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 217730231, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -1415277872, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 1868496422, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 359726560, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 1674139807, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 300820241, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -1131836938, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -420463731, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -1788418684, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 498227471, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -1428829440, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -1457877517, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 1783422319, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -983616089, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -2045727661, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -2056809504, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 1093856201, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: -459447711, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 639432300, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 22449158, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 509658065, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}
+  - {fileID: 1521539095, guid: 133f1a671bec0cc48a33aaaaa6d9f0c2, type: 3}

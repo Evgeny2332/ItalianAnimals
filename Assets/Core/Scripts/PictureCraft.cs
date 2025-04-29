@@ -1,25 +1,29 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PictureCraft : MonoBehaviour
 {
-    [SerializeField] private PictureCraftConfig[] _configs;
+    private PictureCraftConfig _config;
     [SerializeField] private PiecePicture[] _piecesPicture;
+    [SerializeField] private Image _icon;
 
     [SerializeField] private GameObject _barrier, _particle;
 
     public event Action OnCraftComplete;
 
-    public void Init(int idConfig)
+    public void Init(PictureCraftConfig config)
     {
-        SetIcons(idConfig);
+        _config = config;
+        SetIcons();
     }
 
-    private void SetIcons(int idConfig)
+    private void SetIcons()
     {
+        _icon.sprite = _config.Icon;
         for (int i = 0; i < _piecesPicture.Length; i++)
         {
-            _piecesPicture[i].SetIcon(_configs[idConfig].PieceIcons[i]);
+            _piecesPicture[i].SetIcon(_config.PieceIcons[i]);
             _piecesPicture[i].OnPieceMoved += CheckAllPiecesCorrect;
         }
     }
