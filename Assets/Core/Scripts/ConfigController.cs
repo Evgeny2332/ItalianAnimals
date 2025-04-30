@@ -57,5 +57,7 @@ public class ConfigController : MonoBehaviour
             SceneManager.LoadScene(2);
         else if (level >= 15 && level <= 21)
             SceneManager.LoadScene(3);
+
+        Debug.Log(level);
     }
 }
