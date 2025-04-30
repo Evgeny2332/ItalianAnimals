@@ -10,6 +10,8 @@ public class PictureCraft : MonoBehaviour
 
     [SerializeField] private GameObject _barrier, _particle;
 
+    //[SerializeField] private int[]
+
     public event Action OnCraftComplete;
 
     public void Init(PictureCraftConfig config)
@@ -35,6 +37,8 @@ public class PictureCraft : MonoBehaviour
             _barrier.SetActive(true);
             _particle.SetActive(true);
             OnCraftComplete?.Invoke();
+
+            SaveData();
         }
     }
 
@@ -47,4 +51,11 @@ public class PictureCraft : MonoBehaviour
         }
         return true;
     } 
+
+    private void SaveData()
+    {
+
+
+        //PlayerPrefs.SetInt($"StarsConfig{_config.name}", 1);
+    }
 }

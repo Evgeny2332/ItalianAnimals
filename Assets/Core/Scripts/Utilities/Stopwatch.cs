@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class Stopwatch : MonoBehaviour
 {
-    [SerializeField] private Text stopwatchText;
-    private float timeElapsed = 0f;
-    private bool isRunning = false;
+    [SerializeField] private Text _stopwatchText;
+    private float _timeElapsed = 0f;
+    private bool _isRunning = false;
 
     [SerializeField] private PictureCraft _pictureCraft;
 
@@ -15,7 +15,7 @@ public class Stopwatch : MonoBehaviour
 
     private void Start()
     {
-        stopwatchText.text = FormatTime(timeElapsed);
+        _stopwatchText.text = FormatTime(_timeElapsed);
         StartTimer();
     }
 
@@ -28,39 +28,39 @@ public class Stopwatch : MonoBehaviour
 
     public void StartTimer()
     {
-        if (!isRunning)
+        if (!_isRunning)
         {
-            isRunning = true;
+            _isRunning = true;
             StartCoroutine(TimerCoroutine());
         }
     }
 
     public void StopTimer()
     {
-        if (isRunning)
+        if (_isRunning)
         {
-            isRunning = false;
+            _isRunning = false;
             StopCoroutine(TimerCoroutine());
         }
     }
 
     public void ResetTimer()
     {
-        timeElapsed = 0f;
-        stopwatchText.text = FormatTime(timeElapsed);
-        if (isRunning)
+        _timeElapsed = 0f;
+        _stopwatchText.text = FormatTime(_timeElapsed);
+        if (_isRunning)
         {
             StopCoroutine(TimerCoroutine());
-            isRunning = false;
+            _isRunning = false;
         }
     }
 
     private IEnumerator TimerCoroutine()
     {
-        while (isRunning)
+        while (_isRunning)
         {
-            timeElapsed += Time.deltaTime;
-            stopwatchText.text = FormatTime(timeElapsed);
+            _timeElapsed += Time.deltaTime;
+            _stopwatchText.text = FormatTime(_timeElapsed);
             yield return null;
         }
     }

@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f22656d2287277147be117d4b961a87a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stopwatchText: {fileID: 227454138}
+  _stopwatchText: {fileID: 227454138}
   _pictureCraft: {fileID: 1638295151}
 --- !u!1001 &46420804
 PrefabInstance:
@@ -4054,7 +4054,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802cb2ae2079ce04bb07ab4bb5ae7f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _config: {fileID: 0}
   _piecesPicture:
   - {fileID: 1006789289}
   - {fileID: 795804576}
