@@ -22,6 +22,7 @@ public class LevelOpening : MonoBehaviour
     public void OpenLevel(int level)
     {
         ConfigController.Instance.SetConfig(_craftConfig);
+        ConfigController.Instance.PlayButtonSound();
         _menuController.OpenLevel(level);
     }
 }

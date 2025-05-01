@@ -9,6 +9,8 @@ public class ConfigController : MonoBehaviour
     [SerializeField] private PictureCraftConfig _pictureCraftConfig;
     private PictureCraft _pictureCraft;
 
+    [SerializeField] private AudioSource _buttonClick;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -40,4 +42,5 @@ public class ConfigController : MonoBehaviour
     }
 
     public void SetConfig(PictureCraftConfig config) => _pictureCraftConfig = config;
+    public void PlayButtonSound() => _buttonClick.Play();
 }

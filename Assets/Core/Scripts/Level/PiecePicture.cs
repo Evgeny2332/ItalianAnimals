@@ -5,19 +5,22 @@ using System;
 
 public class PiecePicture : MonoBehaviour
 {
-    private bool _isActiveRotate;
+    private bool _isActiveRotate, _isFirst = true;
     private Image _icon;
+    private AudioSource _clickSound;
 
     public event Action OnPieceMoved;
 
     private void Awake()
     {
+        _clickSound = GetComponent<AudioSource>();
         _icon = GetComponent<Image>();
     }
 
     private void Start()
     {
         RotatePiece(RandomAngle());
+        _isFirst = false;
     }
 
     private int RandomAngle()
@@ -64,5 +67,8 @@ public class PiecePicture : MonoBehaviour
             _isActiveRotate = false;
             OnPieceMoved?.Invoke();
         });
+
+        if(!_isFirst)
+            _clickSound.Play();
     }
 }

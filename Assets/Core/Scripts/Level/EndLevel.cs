@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class EndLevel : MonoBehaviour
 {
     [SerializeField] private PictureCraft _pictureCraft;
+    [SerializeField] private AudioSource _audioSource;
 
     private void OnEnable()
     {
@@ -17,16 +18,18 @@ public class EndLevel : MonoBehaviour
 
     private void StartExitToMenu()
     {
+        _audioSource.Play();
         StartCoroutine(TimerToExit());
     }
     private IEnumerator TimerToExit()
     {
-        yield return new WaitForSeconds(5);
-        ExitToMenu();
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(0);
     }
 
     public void ExitToMenu()
     {
+        ConfigController.Instance.PlayButtonSound();
         SceneManager.LoadScene(0);
     }
 }

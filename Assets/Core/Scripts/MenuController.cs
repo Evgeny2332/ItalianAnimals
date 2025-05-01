@@ -45,6 +45,8 @@ public class MenuController : MonoBehaviour
             _selectedIndex = _windows.Length - 1;
 
         _windows[_selectedIndex].SetActive(true);
+
+        ConfigController.Instance.PlayButtonSound();
     }
 
     public void OpenLevel(int level)
