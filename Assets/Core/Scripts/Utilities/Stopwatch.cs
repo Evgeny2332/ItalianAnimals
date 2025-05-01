@@ -55,6 +55,8 @@ public class Stopwatch : MonoBehaviour
         }
     }
 
+    public int GetTime() => (int)_timeElapsed;
+
     private IEnumerator TimerCoroutine()
     {
         while (_isRunning)

@@ -8,6 +8,31 @@ public class MenuController : MonoBehaviour
     private int _selectedIndex = 0;
 
     [SerializeField] private Button[] _levelButtons;
+    [SerializeField] private Sprite _completeLevel;
+
+    private void Start()
+    {
+        //PlayerPrefs.DeleteAll();
+        ActivateLevels();
+    }
+
+    private void ActivateLevels()
+    {
+        int maxLevel = PlayerPrefs.GetInt("MaxLevel");
+
+        for (int i = 0; i < _levelButtons.Length; i++)
+        {
+            if (i < maxLevel)
+            {
+                _levelButtons[i].interactable = true;
+                _levelButtons[i].GetComponent<Image>().sprite = _completeLevel;
+            }
+            else if (i == maxLevel)
+            {
+                _levelButtons[i].interactable = true;
+            }
+        }
+    }
 
     public void SwitchWindow(int direction)
     {
@@ -24,8 +49,6 @@ public class MenuController : MonoBehaviour
 
     public void OpenLevel(int level)
     {
-        ConfigController.Instance.SetConfigIndex(level - 1);
-
         if (level >= 1 && level <= 7)
             SceneManager.LoadScene(1);
         else if (level >= 8 && level <= 14)

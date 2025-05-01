@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 8a52ccf8a9edf48c09826a43e605642e, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -121,14 +121,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 8183552806522195187}
+        m_TargetAssemblyTypeName: LevelOpening, Assembly-CSharp
         m_MethodName: OpenLevel
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -165,10 +165,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 7248717397389523513}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.72300005, y: 0.725}
-  m_AnchorMax: {x: 0.9904585, y: 0.99548846}
-  m_AnchoredPosition: {x: 0, y: -0.19400024}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.633, y: 0.725}
+  m_AnchorMax: {x: 0.89900005, y: 0.99548846}
+  m_AnchoredPosition: {x: 0.18013763, y: -0.000015258789}
+  m_SizeDelta: {x: 0.3145232, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1517190707387579003
 CanvasRenderer:
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7deb88db322237d42bb3facb6cac35df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -217,6 +217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7248717397389523513}
+  - component: {fileID: 8183552806522195187}
   m_Layer: 5
   m_Name: LevelOpening
   m_TagString: Untagged
@@ -236,8 +237,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7609758365871991954}
   - {fileID: 8420253489498539894}
+  - {fileID: 7609758365871991954}
   - {fileID: 3926549206434239994}
   - {fileID: 2016610964370444942}
   m_Father: {fileID: 0}
@@ -247,6 +248,26 @@ RectTransform:
   m_AnchoredPosition: {x: -381, y: 182}
   m_SizeDelta: {x: 224.295, y: 222.795}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8183552806522195187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3558203492639832549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c76aa4c9ad9164880a81be49c9bf40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _menuController: {fileID: 0}
+  _configController: {fileID: 0}
+  _stars:
+  - {fileID: 1843236489593122785}
+  - {fileID: 3404382316871163175}
+  - {fileID: 3117929088043728491}
+  _star: {fileID: 21300000, guid: 9ec692a893e49c243af9ac64da13ffa9, type: 3}
+  _craftConfig: {fileID: 0}
 --- !u!1 &3571164312833841019
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +279,7 @@ GameObject:
   - component: {fileID: 8498652833195729475}
   - component: {fileID: 2063709394109788322}
   - component: {fileID: 8376592937948605339}
+  - component: {fileID: 3586567243060469410}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -305,7 +327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -313,7 +335,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 72b6b3ccc8042b84f879e4d5fb69df8b, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -326,6 +348,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 1
+--- !u!114 &3586567243060469410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571164312833841019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &4162448133845967430
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +375,7 @@ GameObject:
   - component: {fileID: 1642751964331677944}
   - component: {fileID: 1843236489593122785}
   m_Layer: 5
-  m_Name: Star 2
+  m_Name: Star 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,10 +395,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 7248717397389523513}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.009000001, y: 0.725}
-  m_AnchorMax: {x: 0.275, y: 0.99548846}
-  m_AnchoredPosition: {x: 0, y: -0.19400024}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.09645302, y: 0.725}
+  m_AnchorMax: {x: 0.365, y: 0.99548846}
+  m_AnchoredPosition: {x: 0.26750946, y: -0.19400024}
+  m_SizeDelta: {x: -0.5714699, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1642751964331677944
 CanvasRenderer:
@@ -391,7 +428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7deb88db322237d42bb3facb6cac35df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -413,7 +450,7 @@ GameObject:
   - component: {fileID: 5488831322015207110}
   - component: {fileID: 3404382316871163175}
   m_Layer: 5
-  m_Name: Star 1
+  m_Name: Star 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -466,7 +503,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7deb88db322237d42bb3facb6cac35df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

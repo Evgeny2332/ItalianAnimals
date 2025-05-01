@@ -6,9 +6,8 @@ public class ConfigController : MonoBehaviour
 {
     public static ConfigController Instance;
 
-    [SerializeField] private PictureCraftConfig[] _pictureCraftConfigs;
+    [SerializeField] private PictureCraftConfig _pictureCraftConfig;
     private PictureCraft _pictureCraft;
-    private int _configIndex;
 
     private void Awake()
     {
@@ -22,15 +21,8 @@ public class ConfigController : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
+    private void OnEnable() => SceneManager.sceneLoaded += OnSceneLoaded;
+    private void OnDisable() => SceneManager.sceneLoaded -= OnSceneLoaded;
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
@@ -43,9 +35,9 @@ public class ConfigController : MonoBehaviour
 
         _pictureCraft = FindObjectOfType<PictureCraft>();
 
-        if (_pictureCraft != null && _configIndex >= 0 && _configIndex < _pictureCraftConfigs.Length)
-            _pictureCraft.Init(_pictureCraftConfigs[_configIndex]);
+        if (_pictureCraft != null)
+            _pictureCraft.Init(_pictureCraftConfig);
     }
 
-    public void SetConfigIndex(int configIndex) => _configIndex = configIndex;
+    public void SetConfig(PictureCraftConfig config) => _pictureCraftConfig = config;
 }

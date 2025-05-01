@@ -1,5 +1,6 @@
-using System;
+﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PictureCraft : MonoBehaviour
@@ -10,7 +11,8 @@ public class PictureCraft : MonoBehaviour
 
     [SerializeField] private GameObject _barrier, _particle;
 
-    //[SerializeField] private int[]
+    [SerializeField] private Stopwatch _stopwatch;
+    [SerializeField] private int[] _records;
 
     public event Action OnCraftComplete;
 
@@ -54,8 +56,26 @@ public class PictureCraft : MonoBehaviour
 
     private void SaveData()
     {
+        int stars = 0;
+        float playerTime = _stopwatch.GetTime();
 
+        for (int i = 0; i < _records.Length; i++)
+        {
+            if (playerTime <= _records[i])
+            {
+                stars = _records.Length - i;
+                break;
+            }
+            else
+            {
+                stars = 1;
+            }
+        }
 
-        //PlayerPrefs.SetInt($"StarsConfig{_config.name}", 1);
+        if(stars > PlayerPrefs.GetInt($"StarsConfig{_config.name}"))
+            PlayerPrefs.SetInt($"StarsConfig{_config.name}", stars);
+
+        if (PlayerPrefs.GetInt("MaxLevel") < int.Parse(_config.name))
+            PlayerPrefs.SetInt("MaxLevel", int.Parse(_config.name));
     }
 }
