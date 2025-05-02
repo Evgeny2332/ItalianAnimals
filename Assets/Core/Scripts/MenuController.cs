@@ -47,15 +47,7 @@ public class MenuController : MonoBehaviour
         _windows[_selectedIndex].SetActive(true);
 
         ConfigController.Instance.PlayButtonSound();
-    }
 
-    public void OpenLevel(int level)
-    {
-        if (level >= 1 && level <= 7)
-            SceneManager.LoadScene(1);
-        else if (level >= 8 && level <= 14)
-            SceneManager.LoadScene(2);
-        else if (level >= 14 && level <= 21)
-            SceneManager.LoadScene(3);
+        AdsManager.ShowInterstitial();
     }
 }

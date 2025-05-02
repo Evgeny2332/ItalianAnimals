@@ -124,7 +124,7 @@ MonoBehaviour:
       - m_Target: {fileID: 8183552806522195187}
         m_TargetAssemblyTypeName: LevelOpening, Assembly-CSharp
         m_MethodName: OpenLevel
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -261,13 +261,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _menuController: {fileID: 0}
-  _configController: {fileID: 0}
   _stars:
   - {fileID: 1843236489593122785}
   - {fileID: 3404382316871163175}
   - {fileID: 3117929088043728491}
   _star: {fileID: 21300000, guid: 9ec692a893e49c243af9ac64da13ffa9, type: 3}
   _craftConfig: {fileID: 0}
+  _numberScene: 0
 --- !u!1 &3571164312833841019
 GameObject:
   m_ObjectHideFlags: 0

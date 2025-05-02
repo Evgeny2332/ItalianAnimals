@@ -31,5 +31,6 @@ public class EndLevel : MonoBehaviour
     {
         ConfigController.Instance.PlayButtonSound();
         SceneManager.LoadScene(0);
+        AdsManager.ShowInterstitial();
     }
 }

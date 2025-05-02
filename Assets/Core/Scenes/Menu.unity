@@ -282,6 +282,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 321f60ce0d2343a4692bb89f3ac5251d, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -441,6 +445,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: 08832b0c7afa19444b0283a28f60b991, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -637,6 +645,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: 12e4f30a57bca3644be9cd1d5963a074, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -976,6 +988,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 474a999db6978264f8ef122e0ac7a1d2, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -1157,6 +1173,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 30f89fd731690624eb444f0851f7db28, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -1305,6 +1325,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: f8067ab39d8eb8c4e96ecb9cbf576174, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -1647,6 +1671,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: db4677386318f8048a7120da2d360528, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -1796,6 +1824,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 922ea16a67b15f047acb580163bdab7b, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -1934,6 +1966,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 9d5a00f35eccb524d94acee79ad605a2, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -2071,6 +2107,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: c3cd817ca99e3a5438eabbc1f2f36222, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -2241,6 +2281,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: 24a5af5532b84f945a41aa0c7d37e899, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -2455,6 +2499,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f59eba9d71474f34bab3f11c9d8f40e2, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -2592,6 +2640,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: 69dd6b77e18a5a043bba246b9f2bce7f, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -2859,6 +2911,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: acc68846eab983746a659aa0a7167bed, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -3029,6 +3085,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d0d03d72bf662144d832b8e6fb764e25, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -3177,6 +3237,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: eb4e9f4b92ac7ef49a1bab1dac9842fe, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -3422,6 +3486,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f983bc0759718774fb03f57803e82f02, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -3570,6 +3638,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: 2785f693c6f8adc43b5005e487d7a645, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -3783,6 +3855,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 81a36c2c64b383d47b6588ae69711f20, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
       objectReference: {fileID: 865097515}
@@ -3953,6 +4029,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: 5e58b2fe278122a4f80134da2df9bffb, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 
@@ -4156,6 +4236,10 @@ PrefabInstance:
       propertyPath: _craftConfig
       value: 
       objectReference: {fileID: 11400000, guid: 37077bb84bc27cd409fc8db9cdf549c1, type: 2}
+    - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
+      propertyPath: _numberScene
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _menuController
       value: 

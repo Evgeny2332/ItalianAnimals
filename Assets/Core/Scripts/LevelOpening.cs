@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelOpening : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class LevelOpening : MonoBehaviour
     [SerializeField] private Image[] _stars;
     [SerializeField] private Sprite _star;
     [SerializeField] private PictureCraftConfig _craftConfig;
+    [SerializeField] private int _numberScene;
 
     private void Start()
     {
@@ -19,10 +21,13 @@ public class LevelOpening : MonoBehaviour
         }
     }
 
-    public void OpenLevel(int level)
+    public void OpenLevel()
     {
         ConfigController.Instance.SetConfig(_craftConfig);
         ConfigController.Instance.PlayButtonSound();
-        _menuController.OpenLevel(level);
+
+        SceneManager.LoadScene(_numberScene);
+
+        AdsManager.ShowInterstitial();
     }
 }
