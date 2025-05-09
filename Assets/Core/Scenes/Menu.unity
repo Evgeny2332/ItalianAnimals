@@ -4209,7 +4209,7 @@ PrefabInstance:
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _craftConfig
       value: 
-      objectReference: {fileID: 11400000, guid: 10e26406466876246aff9b0623cbdfa1, type: 2}
+      objectReference: {fileID: 11400000, guid: 7e804031d5b2bb5409d133f6caf6d4bd, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _numberScene
       value: 2
@@ -4764,7 +4764,7 @@ PrefabInstance:
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _craftConfig
       value: 
-      objectReference: {fileID: 11400000, guid: 99dc5efba6f8f014b96744ecca8df9ae, type: 2}
+      objectReference: {fileID: 11400000, guid: a3ac62b1f98314243848d8d666a36e5e, type: 2}
     - target: {fileID: 8183552806522195187, guid: 90041a9f4d19ea84fa0f158004feafe3, type: 3}
       propertyPath: _numberScene
       value: 2
