@@ -4374,7 +4374,7 @@ MonoBehaviour:
   _barrier: {fileID: 380453602}
   _particle: {fileID: 1850867626}
   _stopwatch: {fileID: 42687306}
-  _records: 320000004b0000005a000000
+  _records: 460000006400000096000000
 --- !u!1001 &1688396941
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class MenuController : MonoBehaviour
 
     private void ActivateLevels()
     {
-        int maxLevel = PlayerPrefs.GetInt("MaxLevel");
+        int maxLevel = 24;
 
         for (int i = 0; i < _levelButtons.Length; i++)
         {
