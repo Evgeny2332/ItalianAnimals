@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PictureCraft : MonoBehaviour
@@ -66,15 +67,13 @@ public class PictureCraft : MonoBehaviour
                 break;
             }
             else
-            {
                 stars = 1;
-            }
         }
 
         if(stars > PlayerPrefs.GetInt($"StarsConfig{_config.name}"))
             PlayerPrefs.SetInt($"StarsConfig{_config.name}", stars);
 
-        if (PlayerPrefs.GetInt("MaxLevel") < int.Parse(_config.name))
-            PlayerPrefs.SetInt("MaxLevel", int.Parse(_config.name));
+        if (PlayerPrefs.GetInt($"MaxLevel{SceneManager.GetActiveScene().buildIndex}") < _config.LevelId)
+            PlayerPrefs.SetInt($"MaxLevel{SceneManager.GetActiveScene().buildIndex}", _config.LevelId);
     }
 }

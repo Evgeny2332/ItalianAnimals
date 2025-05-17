@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c40f273259f2c44bb4203558db954f7, type: 3}
+  m_Name: 1_10
+  m_EditorClassIdentifier: 
+  _levelId: 10
+  _icon: {fileID: 1576339811, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  _pieceIcons:
+  - {fileID: -1085403808, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -530796242, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -585838535, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -1443058458, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -621586321, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -443282228, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 753989590, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 1822453562, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -1970408866, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 773103588, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -1319141298, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -1476211887, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 32198422, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 440616578, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -2067269786, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 880878634, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 1712035021, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -237051790, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -864917923, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -864218872, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -351007701, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 1576428725, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: -1890897723, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 1692413090, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
+  - {fileID: 2125771316, guid: f04bd63549f61254ea7dbad2c7ab3249, type: 3}
