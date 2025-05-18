@@ -4,11 +4,27 @@ using UnityEngine.UI;
 public class LevelsController : MonoBehaviour
 {
     [SerializeField] private int _indexSceneLevels;
-    [SerializeField] private Button[] _levelButtons;
 
+    [SerializeField] private Button[] _levelButtons;
     [SerializeField] private Sprite _completeLevel;
 
-    private void OnEnable() => LoadLevels();   
+    [SerializeField] private Text _countStars;
+
+    private void OnEnable()
+    {
+        LoadLevels();   
+    }
+
+    private void UpdateCountStarts()
+    {
+        int countStars = 0;
+        foreach (var level in _levelButtons)
+        {
+            countStars += level.GetComponentInParent<LevelOpening>().GetCountStars();
+        }
+
+        _countStars.text = $"{countStars}/30";
+    }
 
     private void LoadLevels()
     {
@@ -24,5 +40,7 @@ public class LevelsController : MonoBehaviour
             else if (i == maxLevel)
                 _levelButtons[i].interactable = true;
         }
+
+        UpdateCountStarts();
     }
 }

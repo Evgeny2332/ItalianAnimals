@@ -15,7 +15,7 @@ public class MenuWindow : MonoBehaviour
     {
         for (int i = 0; i < _stars.Length; i++)
         {
-            _stars[i].text = $"{PlayerPrefs.GetInt(_saveKeys[i])}/30";
+            _stars[i].text = $"{PlayerPrefs.GetInt($"MaxLevel{_saveKeys[i]}")}/10";
         }
     }
 }

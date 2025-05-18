@@ -28,4 +28,6 @@ public class LevelOpening : MonoBehaviour
 
         AdsManager.ShowInterstitial();
     }
+
+    public int GetCountStars() => PlayerPrefs.GetInt($"StarsConfig{_craftConfig.name}");
 }
