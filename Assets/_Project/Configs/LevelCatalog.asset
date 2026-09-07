@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a91d746f5dc8f4288e249a17cacb5b, type: 3}
+  m_Name: LevelCatalog
+  m_EditorClassIdentifier: 
+  _groups:
+  - _typeLevel: 0
+    _sceneBuildIndex: 1
+    _levels:
+    - {fileID: 11400000, guid: b1b96697a27723f45af2fd1c03132ee1, type: 2}
+    - {fileID: 11400000, guid: 9a002d4bb6239434982f7343d28f178c, type: 2}
+    - {fileID: 11400000, guid: 7648ef9d02a294b4ea00cb1e0d2e76b7, type: 2}
+    - {fileID: 11400000, guid: 826bbfdc99ad6eb4082bec85caa089d6, type: 2}
+    - {fileID: 11400000, guid: 3f00177bed7630d41a59860505232749, type: 2}
+    - {fileID: 11400000, guid: 202918ca73ffb8a49b21f8409c06bbf1, type: 2}
+    - {fileID: 11400000, guid: e8a61f2054d20f84b9f6d40269d72d17, type: 2}
+    - {fileID: 11400000, guid: d9dacf71e1b9f60428e09806d55eb14f, type: 2}
+    - {fileID: 11400000, guid: cad04966bafc66e47a38ba017fe4fd0f, type: 2}
+    - {fileID: 11400000, guid: 003016e55b5368f428d35cc4baf8b562, type: 2}
+  - _typeLevel: 1
+    _sceneBuildIndex: 2
+    _levels:
+    - {fileID: 11400000, guid: 82bc4ee09414e7d44bdb829f4778136d, type: 2}
+    - {fileID: 11400000, guid: ffdd341c71c7f514e9b9cd24256ffb75, type: 2}
+    - {fileID: 11400000, guid: ed3351b30422f4141b0644129dd97b7e, type: 2}
+    - {fileID: 11400000, guid: 8567b9aa29a09c74487475508dfb08f7, type: 2}
+    - {fileID: 11400000, guid: b10f8180c78fc534fb00201fc027635e, type: 2}
+    - {fileID: 11400000, guid: 92b20657a804c56418b5cffe0314bda0, type: 2}
+    - {fileID: 11400000, guid: d352ac928ec29b64caee81bc1e659e41, type: 2}
+    - {fileID: 11400000, guid: c5b73d9f0251d1b4394b54516e42d691, type: 2}
+    - {fileID: 11400000, guid: affbb55511d0a534b965bdf3f4fa27f7, type: 2}
+    - {fileID: 11400000, guid: ff10f8c7701eed54fae7801957bc4546, type: 2}
+  - _typeLevel: 2
+    _sceneBuildIndex: 3
+    _levels:
+    - {fileID: 11400000, guid: 4e2e39323b06d7e46b730088c6965257, type: 2}
+    - {fileID: 11400000, guid: 4b70aead2f85e1a43965a7bbd81f07bd, type: 2}
+    - {fileID: 11400000, guid: 0f0e984d105cc4f49a11c816ef89983b, type: 2}
+    - {fileID: 11400000, guid: d2379c3604fd12445b72b936e71e7836, type: 2}
+    - {fileID: 11400000, guid: 99a6699d9c3d72c4abccaffdf07a9606, type: 2}
+    - {fileID: 11400000, guid: a6e251918b5cff84f9855e4ce87f8a52, type: 2}
+    - {fileID: 11400000, guid: 3a276d73f6c65a045a76ffd74b9dac38, type: 2}
+    - {fileID: 11400000, guid: e20af6b49079b3a45829d71183c29e49, type: 2}
+    - {fileID: 11400000, guid: a99b2d4217b939b468a822068652b29b, type: 2}
+    - {fileID: 11400000, guid: 4f108c84fcc3d244da13857074d27c3f, type: 2}
